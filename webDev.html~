@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
-<!-- appDev.html -->
+<!-- webDev.html -->
 <html>
 <head>
-    <title>DragonFlySoft - Application Development</title>
+    <title>DragonFlySoft - Website Development</title>
     <script src="./js/script.js"></script>
     <link rel="stylesheet" href="./css/style.css" />
 </head>
@@ -17,8 +17,7 @@
 				</form>
 				<div class="tfclear"></div>
 			</div>
-    		<div style="position:absolute; right:38px"><li>
-    		<a href="./contact.html">Contact Us</a></li>
+    		<div style="position:absolute; right:10px"><li><a href="./contact.html">Contact Us</a></li>
     		<li><a href="./about.html">About</a></li>
     		<li><a href="./bookReviews.html">Book Reviews</a></li>
     		<li><a href="./portfolio.html">Portfolio</a></li>
@@ -27,25 +26,26 @@
             <li><a href="webDevMaintain.html">Site Maintenance</a></li>
             <li><a href="webDevFeatures.html">Features</a></li>
             <li><a href="webDevStandards.html">Design Standards</a></li> </ul> </li>
-			<li class="active"><a href="./appDev.html">Application Development</a><ul>
+			<li><a href="./appDev.html">Application Development</a><ul>
      	      <li><a href="./appDevMobile.html">Mobile Applications</a></li>
      	      <li><a href="./appDevWeb.html">Web Applications</a></li>
       	   <li><a href="./appDevFeatures.html">Features</a></li> </ul> </li>
-			<li><a href="./index.html">Home</a></li>
-			</div>
+			<li class="active"><a href="./index.html">Home</a></li></div>
 		</ul>
    </header>
     </br>
-			<h1>Application Development</h1></br>
+		<h1>Website Development</h1></br>
 			<nav>
 			    <ul>
-			        <li><a href="./appDevMobile.html">Mobile Applications</a></li>
-            <li><a href="./appDevWeb.html">Web Applications</a></li>
-            <li><a href="./appDevFeatures.html">Features</a></li>
+			        <li><a href="webDevConstruction.html">Site Construction</a></li>
+            <li><a href="webDevMaintain.html">Site Maintenance</a></li>
+            <li><a href="webDevFeatures.html">Features</a></li>
+            <li><a href="webDevStandards.html">Design Standards</a></li> 
         </ul>
     </nav>
     <article>
-		    	<p>Here at DragonFlySoft we offer a variety of application development services.</p>
+		    	<p>Here at DragonFlySoft we offer a wide range of services to suit your website needs. We can build your site from scratch, revamp an existing one, maintain your site, perform S.E.O. for your site, or whatever else you need.</p>
+			    </br>
     </article>
     <footer>
    	<div style="float:left">

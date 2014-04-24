@@ -2,32 +2,40 @@
 <!-- appDevWeb.html -->
 <html>
 <head>
-    <title>DragonFlySoft</title>
+    <title>DragonFlySoft - Web Application Development</title>
     <script src="./js/script.js"></script>
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <a href="./index.html">
     <header>
-        <!-- header is complete without any additions -->
-    </header></a>
-    <ul id="menu-bar">
-        <li class="active"><a href="./index.html">Home</a></li>
-        <li><a href="./appDev.html">Application Development</a><ul>
-            <li><a href="./appDevMobile.html">Mobile Applications</a></li>
-            <li><a href="./appDevWeb.html">Web Applications</a></li>
-            <li><a href="./appDevFeatures.html">Features</a></li> </ul> </li>
-        <li><a href="./webDev.html">Website Development</a> <ul>
+    	<ul id="menu-bar">
+    		<!-- HTML for SEARCH BAR -->
+			<div id="tfheader">
+				<form id="tfnewsearch" action="http://www.google.com/search" method="get" onSubmit="Javascript:Gsitesearch(this)">
+					<input name="q" type="hidden" />		        
+				   <input type="text" class="tftextinput" name="qfront" size="10" maxlength="120"><input type="submit" value="search" class="tfbutton">
+				</form>
+				<div class="tfclear"></div>
+			</div>
+    		<div style="position:absolute; right:38px">
+    		<li><a href="./contact.html">Contact Us</a></li>
+    		<li><a href="./about.html">About</a></li>
+    		<li><a href="./bookReviews.html">Book Reviews</a></li>
+    		<li><a href="./portfolio.html">Portfolio</a></li>
+    		<li><a href="./webDev.html">Website Development</a> <ul>
             <li><a href="webDevConstruction.html">Site Construction</a></li>
             <li><a href="webDevMaintain.html">Site Maintenance</a></li>
             <li><a href="webDevFeatures.html">Features</a></li>
-            <li><a href="webDevStandards.html">Design Standards</a></li> </ul> </li> 
-        <li><a href="./portfolio.html">Portfolio</a></li>
-        <li><a href="./bookReviews.html">Book Reviews</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact Us</a></li>
-    </ul>
-			<hr></br>
+            <li><a href="webDevStandards.html">Design Standards</a></li> </ul> </li>
+			<li class="active"><a href="./appDev.html">Application Development</a><ul>
+     	      <li><a href="./appDevMobile.html">Mobile Applications</a></li>
+     	      <li><a href="./appDevWeb.html">Web Applications</a></li>
+      	   <li><a href="./appDevFeatures.html">Features</a></li> </ul> </li>
+			<li><a href="./index.html">Home</a></li>
+			</div>
+		</ul>
+   </header>
+    </br>
 			<h1>Web Application Development</h1></br>
 		 <nav>
 			    <ul>
@@ -40,7 +48,9 @@
 		    	<p>Here at DragonFlySoft we offer a variety of application development services.</p>
     </article>
     <footer>
-        <p>&copy DragonFlyStudios, 2014</p>
+   	<div style="float:left">
+        	<p>&copy DragonFlyStudios, 2014</p>
+		</div>
     </footer>
 </body>
 </html>

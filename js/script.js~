@@ -28,7 +28,7 @@ function h264Check() {
 // This notice must stay intact for use
 
 //Enter domain of site to search.
-var domainroot="219.96.16.14"
+var domainroot="www.javascriptkit.com"
 
 function Gsitesearch(curobj){
 curobj.q.value="site:"+domainroot+" "+curobj.qfront.value
