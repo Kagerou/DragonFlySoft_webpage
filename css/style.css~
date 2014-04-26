@@ -135,8 +135,6 @@ hr {
     z-index:0; 
     background-image: url("../images/logo.png");
     background-repeat: no-repeat; 
-    
-    overflow: auto;
 } 
 
 #menu-bar li { 
@@ -279,6 +277,7 @@ html[xmlns] #menu-bar {
 #tfheader{
 		/*background-color:#268B44;*/
 		float: right;
+		opacity: .7;
 }
 	
 #tfnewsearch{
