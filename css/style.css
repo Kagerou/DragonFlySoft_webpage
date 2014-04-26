@@ -134,12 +134,12 @@ hr {
     position:relative;
     z-index:0; 
     background-image: url("../images/logo.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
 } 
 
 #menu-bar li { 
     margin: 90px 0px 6px 0px;
-    padding: 0px 6px 0px 6px;
+    padding: 0px 2px 0px 2px;
     float: right;
     position: relative;
     list-style: none; 
@@ -275,13 +275,14 @@ html[xmlns] #menu-bar {
 }
 
 #tfheader{
-		background-color:#268B44;
+		/*background-color:#268B44;*/
 		float: right;
 }
 	
 #tfnewsearch{
 	float:right;
-	padding: 35px 5px 5px 5px;
+	margin-top: 35px;
+	padding: 0px;
 }
 	
 .tftextinput{

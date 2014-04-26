@@ -8,6 +8,8 @@
 </head>
 <body>
 	<header>
+		<img src="./images/logo.png" alt="DragonFlySoft">
+		
     	<ul id="menu-bar">
     		<!-- HTML for SEARCH BAR -->
 			<div id="tfheader">
@@ -31,10 +33,16 @@
      	      <li><a href="./appDevMobile.html">Mobile Applications</a></li>
      	      <li><a href="./appDevWeb.html">Web Applications</a></li>
       	   <li><a href="./appDevFeatures.html">Features</a></li> </ul> </li>
-			<li class="active"><a href="./index.html">Home</a></li></div>
+			<li class="active"><a href="./index.html">Home</a></li>
+			</div>
 		</ul>
    </header>
 			</br>
+			<article>
+				<p>Hello and welcome to DragonFlySoft, your source for simple, yet elegant and effective web design and mobile app design. 
+				Our goal is to satisfy your businesses needs and get your message out to the world.</p></br>
+				<p>Have a look around our site, and when you're ready head over to the contact page and let us know how we can help you.</p>
+			</article>
 	<footer>
    	<div style="float:left">
         	<p>&copy DragonFlyStudios, 2014</p>
