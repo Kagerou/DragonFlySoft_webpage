@@ -21,6 +21,7 @@ header {
 
 footer {
     width: 95%;
+    height: 15px;
     clear: both;
     background-color: #268B44;
     font: normal bold 12px arial;
@@ -31,7 +32,7 @@ footer {
     margin: 0px 0px 2px 2px;
     border-radius: 15px 15px 15px 15px;
     text-shadow: 2px 2px 3px #000000;
-    position: fixed;
+    position: relative;
     bottom: 0px;
 }
 
@@ -103,12 +104,14 @@ form {
 article {
     width: 80%;
     float: right;
-    padding-bottom: 10px;
+    padding: 0px 10px 0px 10px;
 }
 
 h1 {
     font-family: arial, helvetica, sans-serif;
     color: #268B44;
+    margin-top: 130px;
+    text-align: center;
     padding: 0px 0px 0px 6px;
 }
 
@@ -119,7 +122,7 @@ hr {
 
 #menu-bar { 
     width: 95%; 
-    margin: 10px 0px 0px 2px; 
+    margin: 0px 0px 0px 2px; 
     padding: 6px 40px 4px 8px; 
     height: 120px; 
     line-height: 100%; 
@@ -131,7 +134,8 @@ hr {
     -moz-box-shadow: 2px 2px 3px #666666;
     background: #268B44;
     border: solid 1px #268B44;
-    position:relative;
+    position: fixed;
+    top: 0px;
     z-index:0; 
     background-image: url("../images/logo.png");
     background-repeat: no-repeat; 
