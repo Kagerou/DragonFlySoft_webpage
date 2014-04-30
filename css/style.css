@@ -2,6 +2,10 @@
     padding : 0;
     margin : 0;
 }
+html {
+	min-width: 1400px;
+	min-height: 600px;
+}
 
 body {
     background : white;
@@ -13,14 +17,19 @@ body {
 }
 
 header {
-	width: 100%
-	position: fixed;
-	top: 0;
-	z-index: 1;
-	}
+}
 
+	header img {
+		vertical-align: bottom;
+	}
+	
+#logo {
+		background-color: #268B44;
+		width: 100%;
+	}
+	
 footer {
-    width: 95%;
+    width: 100%;
     height: 15px;
     clear: both;
     background-color: #268B44;
@@ -28,22 +37,24 @@ footer {
     color: #E7E5E5;
     text-decoration: none;
     display: block;
-    padding: 6px 20px 6px 20px;
-    margin: 0px 0px 2px 2px;
-    border-radius: 15px 15px 15px 15px;
+    padding: 6px 0px;
+    margin: 0px;
     text-shadow: 2px 2px 3px #000000;
     position: relative;
-    bottom: 0px;
+    vertical-align: bottom;
 }
 
+	footer div {
+		padding-left: 20px;
+	}
 	
 form {
-	float: right;
-	position:  relative;
+	position: relative;
 }
 
 article {
     width: 80%;
+    min-height: 521px;
     float: right;
     padding: 0px 10px 0px 10px;
 }
@@ -56,11 +67,11 @@ h1 {
     padding: 0px 0px 0px 6px;
 }
 
-hr {
-	   width: 100%;
-    clear: both;
-}
 
+nav {
+	background: #268B44;
+	width: 100%;
+}
 nav ul ul {
 	display: none;
 }
@@ -70,13 +81,7 @@ nav ul ul {
 	}
 	
 nav ul {
-	background: #efefef; 
-	background: linear-gradient(top, #efefef 0%, #bbbbbb 100%);  
-	background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); 
-	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); 
-	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
 	padding: 0 20px;
-	border-radius: 10px;  
 	list-style: none;
 	position: relative;
 	display: inline-block;
@@ -88,65 +93,68 @@ nav ul {
 	
 nav ul li {
 	display: inline-block;
+	font-family: arial;
+	font-size: 16pt;
+	
 }
+
 	nav ul li:hover {
-		background: #4b545f;
-		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
-	}
+		background: #03601F;
+		background: linear-gradient(top, #03601F 0%, #2B8346 100%);
+		background: -moz-linear-gradient(top, #03601F 0%, #2B8346 100%);
+		background: -webkit-linear-gradient(top, #03601F 0%, #2B8346 100%);
+}
+
 		nav ul li:hover a {
 			color: #fff;
 		}
 	
 	nav ul li a {
-		display: block; padding: 25px 40px;
-		color: #757575; text-decoration: none;
+		display: block; 
+		padding: 20px 20px;
+		color: #EFEFEF; 
+		text-decoration: none;
 	}
 	
 nav ul ul {
-	background: #5f6975; border-radius: 0px; padding: 0;
-	position: absolute; top: 100%;
+	height 50px;
+	background: #2B8346; 
+	border-radius: 0px; 
+	padding: 0;
+	position: absolute; 
+	top: 100%;
 }
 	nav ul ul li {
 		float: none; 
-		border-top: 1px solid #6b727c;
-		border-bottom: 1px solid #575f6a;
+		border-top: 1px solid #03601F;
 		position: relative;
 		display: list-item;
 	}
 		nav ul ul li a {
-			padding: 15px 40px;
 			color: #fff;
 		}	
 			nav ul ul li a:hover {
-				background: #4b545f;
+				background: #268B44;
 			}
 
 #tfheader{
-		/*background-color:#268B44;*/
-		float: right;
+		
 }
 	
 #tfnewsearch{
-	float:right;
-	margin-top: 35px;
-	padding: 0px;
+	margin-top: 0;
 }
 	
 .tftextinput{
-	margin: 0;
 	padding: 5px 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:12px;
-	border:1px solid #268B44; border-right:0px;
-	border-top-left-radius: 5px 5px;
-	border-bottom-left-radius: 5px 5px;
+	border:3px inset #51B970; 
+	border-right: 0;
 	opacity: .7;
 }
 	
 .tfbutton {
-	margin: 0;
 	padding: 5px 15px;
 	font-weight: bold;
    font-family: arial;
@@ -159,22 +167,18 @@ nav ul ul {
 	text-align: center;
 	text-decoration: none;
 	color: #ffffff;
-	border: solid 1px #268B44; border-right:0px;
-	background: #43FA14A;
-	background: -webkit-gradient(linear, left top, left bottom, from(#67BB71), to(#3FA14A));
-	background: -moz-linear-gradient(top,  #67BB71,  #3FA14A);
-	border-top-right-radius: 5px 5px;
-	border-bottom-right-radius: 5px 5px;
+	border:3px inset #51B970;
+	border-left: 0;
+	background: linear-gradient(top, #268B44 0%, #51B970 99%);  
+	background: -moz-linear-gradient(top, #268B44 0%, #51B970 99%); 
+	background: -webkit-linear-gradient(top, #268B44 0%, #51B970 199%);
 }
 	
 .tfbutton:hover {
 	text-decoration: none;
-	background: #007ead;
-	background: -webkit-gradient(linear, left top, left bottom, from(#3E8346), to(#05550E));
-	background: -moz-linear-gradient(top,  #3E8346,  #05550E);
 }
 	
-/* Fixes submit button height problem in Firefox */
+/*/ fixes submit button height in firefox */
 .tfbutton::-moz-focus-inner {
   border: 0;
 }
