@@ -23,7 +23,7 @@ header {
 		vertical-align: bottom;
 	}
 	
-#logo {
+	#logo {
 		background-color: #268B44;
 		width: 100%;
 	}
@@ -52,9 +52,33 @@ form {
 	position: relative;
 }
 
+#news {
+	width: 16%;
+	background-color: #268B44;
+	border: 3px inset #51B970;
+	margin: 0px 0px 0px 15px;
+	padding: 0px 0px;
+	float: left;
+	position: relative;
+	font: 14pt arial;
+	color: white;
+}
+
+	#news ul {
+		list-style: none;
+		}
+		
+	#news ul li {
+		padding: 3px 5px;		
+	}
+	
+	#news li + li {
+		border-top: 2px solid #03601F;
+	}
+
 article {
     width: 80%;
-    min-height: 521px;
+    min-height: 631px;
     float: right;
     padding: 0px 10px 0px 10px;
 }
@@ -62,7 +86,7 @@ article {
 h1 {
     font-family: arial, helvetica, sans-serif;
     color: #268B44;
-    margin-top: 130px;
+    margin-top: 20px;
     text-align: center;
     padding: 0px 0px 0px 6px;
 }
@@ -71,6 +95,7 @@ h1 {
 nav {
 	background: #268B44;
 	width: 100%;
+	border-bottom: 3px outset #51B970;
 }
 nav ul ul {
 	display: none;
