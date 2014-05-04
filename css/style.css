@@ -40,7 +40,7 @@ header {
 	
 footer {
     width: 1450px;
-    height: 15px;
+    height: 30px;
     clear: both;
     background-color: #268B44;
     font: normal bold 12px arial;
@@ -56,7 +56,21 @@ footer {
 }
 
 	footer div {
-		padding-left: 20px;
+		margin: 10px 0px 10px 20px;
+		position: relative;
+		float: left;
+		vertical-align: middle;
+	}
+	
+#social {
+	position: relative;
+	float: right;
+	padding: 0 5px;
+	margin: 0px;
+}
+
+	#social img {
+		padding: 0px 5px;
 	}
 	
 form {
