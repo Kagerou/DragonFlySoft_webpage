@@ -17,6 +17,7 @@ body {
     background : rgba(0, 0, 0, 0.5);
     color : black;
     width: 1450px;
+    min-height:918px;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
@@ -27,6 +28,9 @@ header {
 	width: 1450px;
 	margin-left: auto;
 	margin-right: auto;
+	position: fixed;
+	top: 0;
+	z-index: +10;
 }
 
 	header img {
@@ -51,8 +55,8 @@ footer {
     margin-left: auto;
     margin-right: auto;
     text-shadow: 2px 2px 3px #000000;
-    position: relative;
-    vertical-align: bottom;
+    position: fixed;
+    bottom: 0;
 }
 
 	footer div {
@@ -61,6 +65,10 @@ footer {
 		float: left;
 		vertical-align: middle;
 	}
+	
+#container {
+	margin-top: 217px;
+}
 	
 #social {
 	position: relative;
@@ -72,9 +80,19 @@ footer {
 	#social img {
 		padding: 0px 5px;
 	}
+
+#contact {
+	width: 60%;
+	margin: 20px 50px;
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+}
 	
 form {
 	position: relative;
+	color: white;
+	font: 16pt arial;
 }
 
 #news {

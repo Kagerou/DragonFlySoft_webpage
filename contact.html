@@ -4,7 +4,7 @@
 <head>
     <title>DragonFlySoft - Contact Us</title>
     <script src="./js/script.js"></script>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" media="(min-width: 641px)" href="./css/style.css" />
 </head>
 <body>
     <header>
@@ -44,11 +44,28 @@
 		</nav>
    </header>
     </br>
+    <div id="container">
 			<h1>Contact us</h1></br>
-			<article></article>
+			<div id="contact">
+				<form action="MAILTO:kagerou@dragonflysoft.biz" method="post" enctype="text/plain">
+					Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br>
+					Contact info: &nbsp;&nbsp;&nbsp;&nbsp; <img src="./images/phone.png" alt="phone" ><input type="text" name="phone">&nbsp;&nbsp;&nbsp;&nbsp;<img src="./images/email.png" alt="email" ><input type="text" name="email"><br>
+					Website: <input type="text" name="website"><br>
+					<br>
+					What are you interested in?<br>
+					<input type="radio" name="type" value="WebConst">Website construction &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="type" value="WebMaint">Website maintenance<br>
+					<input type="radio" name="type" value="App">Application Development<br>
+					<br>
+					Additional Information: <input type="text" name="comment" placeholder="Please feel free to elaborate on your request" size="70"><br>
+					<br>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">	
+				</form>
+			</div>
 			<div id="banner">
 				<a href="http://www.bluehost.com/track/dragonflysoft"><img src="./images/bh_120x240_03.gif" alt="CLICK HERE TO SIGNUP FOR BLUEHOST.COM" ></a>
 			</div>
+	</div>
     <footer>
    	<div>
         	<p>&copy DragonFlyStudios, 2014</p>
