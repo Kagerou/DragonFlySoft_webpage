@@ -4,11 +4,13 @@
 <head>
     <title>DragonFlySoft - About us</title>
     <script src="./js/script.js"></script>
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CSS media query -->
+    <link rel="stylesheet" media="(min-device-width:641px)" href="./css/style.css" />
+    <link rel="stylesheet" media="(max-device-width:640px)" href="./css/mobileStyle.css">
 </head>
 <body>
-   <header>
-   	<div id="logo"><img src="./images/logo.png" alt="DragonFlySoft"></img></div>
+	<header>
+	<div id="logo"></div>
     	<nav>
 			<ul >
 				<li><a href="./index.html">Home</a></li>
@@ -43,23 +45,29 @@
 			</ul>
 		</nav>
    </header>
-    </br>
-			<h1>About us</h1></br>
-    <article>
-		    	<p> DragonFlySoft is a small design company started in 2012 with the aim of helping businesses make the transition to a mobile world. 
-		    	We understand the need to have content available on a wide variety of devices, and we aim to meet that need.</p></br>
-				<p>Our head office is in Japan, but we have embraced the mobile world and do much of our work out in the world. 
-				What this means for you is that we are readily available to talk with you through video chat (Skype, Line) or boring old email. 
-				You can drop by our Google+, Facebook, and Twitter pages as well to say hi.</p>  
+   <div id="container">
+		<h1>About us</h1></br>
+   	<article>
+			<p> DragonFlySoft is a small design company started in 2012 with the aim of helping businesses make the transition to a mobile world. 
+		   We understand the need to have content available on a wide variety of devices, and we aim to meet that need.</p></br>
+			<p>Our head office is in Japan, but we have embraced the mobile world and do much of our work out in the world. 
+			What this means for you is that we are readily available to talk with you through video chat (Skype, Line) or boring old email. 
+			You can drop by our Google+, Facebook, and Twitter pages as well to say hi.</p>  
 				</br>
-    </article>
-    <div id="banner">
-				<a href="http://www.bluehost.com/track/dragonflysoft"><img src="./images/bh_120x240_03.gif" alt="CLICK HERE TO SIGNUP FOR BLUEHOST.COM" ></a>
-			</div>
-    <footer>
-   	<div>
-        	<p>&copy DragonFlyStudios, 2014</p>
+    	</article>
+    	<div id="banner">
+			<a href="http://www.bluehost.com/track/dragonflysoft"><div id="bannerLink"></div></a>
 		</div>
-    </footer>
+	</div>
+    <footer>
+		<div id="social">
+			<a href="g+" ><img src="./images/google_plus.png" alt="G+" ></a>
+			<a href="facebook" ><img src="./images/facebook.png" alt="Facebook" ></a>
+			<a href="twitter" ><img src="./images/twitter.png" alt="Twitter" ></a>
+		</div>
+   	<div>
+        	<p>&copy DragonFlySoft, 2014</p>
+		</div>
+	</footer>
 </body>
 </html>

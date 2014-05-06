@@ -6,16 +6,16 @@ html {
 	min-width: 1450px;
 	min-height: 600px;
 	background: url("../images/binary.jpg") no-repeat center center fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	z-index: -20;
 }
 
 body {
     background : rgba(0, 0, 0, 0.5);
-    color : black;
+    color : white;
     width: 1450px;
     min-height:918px;
     margin-left: auto;
@@ -38,8 +38,9 @@ header {
 	}
 	
 	#logo {
-		background-color: #268B44;
+		background: #268B44 url("../images/logo.png") no-repeat top left;
 		width: 100%;
+		height: 150px;
 	}
 	
 footer {
@@ -47,7 +48,7 @@ footer {
     height: 30px;
     clear: both;
     background-color: #268B44;
-    font: normal bold 12px arial;
+    font: normal bold 12pt arial;
     color: #E7E5E5;
     text-decoration: none;
     display: block;
@@ -143,21 +144,29 @@ article {
 	}
 	
 #banner {
+	background: url("../images/bh_120x240_03.gif") no-repeat top left; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	display: inline-block;
 	float: right;
 	vertical-align: top;
 	width: 120px;
+	height: 250px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-right: 5px;
+	z-index: 1;
 }
 
-	#banner img {
-		
+	#bannerLink {
+		width:120px;
+		height: 250px;
 	}
-
+	
 h1 {
-    font-family: arial, helvetica, sans-serif;
+    font-family: arial;
     color: white;
     margin-top: 20px;
     text-align: center;
@@ -300,11 +309,11 @@ nav ul ul {
 .tfbutton {
 	padding: 5px 15px;
 	font-weight: bold;
-   font-family: arial;
-   font-style: normal;
-   font-size: 12px;
-   text-shadow: 2px 2px 3px #000000;
-   color: #E7E5E5;
+	font-family: arial;
+	font-style: normal;
+	font-size: 12px;
+	text-shadow: 2px 2px 3px #000000;
+	color: #E7E5E5;
 	outline: none;
 	cursor: pointer;
 	text-align: center;

@@ -4,11 +4,13 @@
 <head>
     <title>DragonFlySoft - Website Development Features</title>
     <script src="./js/script.js"></script>
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- CSS media query -->
+    <link rel="stylesheet" media="(min-device-width:641px)" href="./css/style.css" />
+    <link rel="stylesheet" media="(max-device-width:640px)" href="./css/mobileStyle.css">
 </head>
 <body>
-  <header>
-  		<div id="logo"><img src="./images/logo.png" alt="DragonFlySoft"></img></div>
+	<header>
+	<div id="logo"></div>
     	<nav>
 			<ul >
 				<li><a href="./index.html">Home</a></li>
@@ -43,7 +45,7 @@
 			</ul>
 		</nav>
    </header>
-    </br>
+   <div id="container">
 	  	<h1>Features</h1></br>
 			<div id="sidebar">
 		<ul>
@@ -60,12 +62,18 @@
 		<p></p>
 	</article>
    <div id="banner">
-		<a href="http://www.bluehost.com/track/dragonflysoft"><img src="./images/bh_120x240_03.gif" alt="CLICK HERE TO SIGNUP FOR BLUEHOST.COM" ></a>
-	</div>
-    <footer>
-   	<div>
-        	<p>&copy DragonFlyStudios, 2014</p>
+			<a href="http://www.bluehost.com/track/dragonflysoft"><div id="bannerLink"></div></a>
 		</div>
-    </footer>
+    <footer>
+		<div id="social">
+			<a href="g+" ><img src="./images/google_plus.png" alt="G+" ></a>
+			<a href="facebook" ><img src="./images/facebook.png" alt="Facebook" ></a>
+			<a href="twitter" ><img src="./images/twitter.png" alt="Twitter" ></a>
+		</div>
+   	<div>
+        	<p>&copy DragonFlySoft, 2014</p>
+		</div>
+	</div>
+	</footer>
 </body>
 </html>
