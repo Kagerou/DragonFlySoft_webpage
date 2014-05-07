@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
-<!-- contact.html -->
+<!-- index.html -->
 <html>
 <head>
-    <title>DragonFlySoft - Contact Us</title>
+    <title>DragonFlySoft - Web Design</title>
     <script src="./js/script.js"></script>
     <!-- CSS media query -->
     <link rel="stylesheet" media="(min-device-width:641px)" href="./css/style.css" />
@@ -11,7 +11,7 @@
 <body>
 	<header>
 	<div id="logo"></div>
-    	<nav>
+		<nav>
 			<ul >
 				<li><a href="./index.html">Home</a></li>
 				<li><a href="./appDev.html">Application Development</a>
@@ -41,34 +41,36 @@
 						</form>
 						<div class="tfclear"></div>
 					</div>
-				</li>
+				</li> 
 			</ul>
 		</nav>
    </header>
-    </br>
-    <div id="container">
-			<h1>Contact us</h1></br>
-			<div id="contact">
-				<form action="MAILTO:kagerou@dragonflysoft.biz" method="post" enctype="text/plain">
-					Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br>
-					Contact info: &nbsp;&nbsp;&nbsp;&nbsp; <img src="./images/phone.png" alt="phone" ><input type="text" name="phone">&nbsp;&nbsp;&nbsp;&nbsp;<img src="./images/email.png" alt="email" ><input type="text" name="email"><br>
-					Website: <input type="text" name="website"><br>
-					<br>
-					What are you interested in?<br>
-					<input type="radio" name="type" value="WebConst">Website construction &nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="type" value="WebMaint">Website maintenance<br>
-					<input type="radio" name="type" value="App">Application Development<br>
-					<br>
-					Additional Information: <input type="text" name="comment" placeholder="Please feel free to elaborate on your request" size="70"><br>
-					<br>
-					<input type="submit" value="Submit">
-					<input type="reset" value="Reset">	
-				</form>
-			</div>
-			<div id="banner">
+   <div id="container">
+		<h1>Contact us</h1>
+		<div id="contact">
+			<form action="mailto://kagerou@dragonflysoft.biz?subject=inquiry" method="post" enctype="text/plain" >
+				<div id="input"><input type="text" name="name" placeholder="Name"></div><br>
+				<div id="input"><img src="./images/phone.png" alt="phone"><input type="text" name="phone" placeholder="phone number"></div>
+				<div id="input"><img src="./images/email.png" alt="email"><input type="text" name="email" placeholder="email"></div>
+				<div id="input"><img src="./images/web.png" alt="website" ><input type="text" name="website" placeholder="website"></div><br>
+				<br>
+				<p>What type of service are you interested in?</p><br>
+				<div id="radio"><input type="radio" name="type" value="WebConst"></div><p>Website construction</p><br>
+				<div id="radio"><input type="radio" name="type" value="WebMaint"></div><p>Website maintenance</p><br>
+				<div id="radio"><input type="radio" name="type" value="App"></div><p>Application Development</p><br>
+				<br>
+				<p>Additional Information: </p><input type="text" name="comment" placeholder="Please elaborate" size="70"><br>
+				<br>
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">	
+			</form>
+		</div>
+		<br>
+		<div id="banner">
 			<a href="http://www.bluehost.com/track/dragonflysoft"><div id="bannerLink"></div></a>
 		</div>
 	</div>
-   <footer>
+	<footer>
 		<div id="social">
 			<a href="g+" ><img src="./images/google_plus.png" alt="G+" ></a>
 			<a href="facebook" ><img src="./images/facebook.png" alt="Facebook" ></a>
