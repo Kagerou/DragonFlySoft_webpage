@@ -303,7 +303,6 @@ nav ul ul {
 	font-size:12px;
 	border:3px inset #51B970; 
 	border-right: 0;
-	opacity: .7;
 }
 	
 .tfbutton {
@@ -323,7 +322,7 @@ nav ul ul {
 	border-left: 0;
 	background: linear-gradient(top, #268B44 0%, #51B970 99%);  
 	background: -moz-linear-gradient(top, #268B44 0%, #51B970 99%); 
-	background: -webkit-linear-gradient(top, #268B44 0%, #51B970 199%);
+	background: -webkit-linear-gradient(top, #268B44 0%, #51B970 99%);
 }
 	
 .tfbutton:hover {
