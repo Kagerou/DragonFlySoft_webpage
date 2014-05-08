@@ -1,79 +1,67 @@
-<!DOCTYPE HTML>
-<!-- index.html -->
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-    <title>DragonFlySoft - Web Design</title>
-    <script src="./js/script.js"></script>
-    <!-- CSS media query -->
-    <link rel="stylesheet" media="(min-device-width:641px)" href="./css/style.css" />
-    <link rel="stylesheet" media="(max-device-width:640px)" href="./css/mobileStyle.css">
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>DragonFlySoft - Mobile Design and Development</title>
+	<meta name="description" content="DragonFlySoft is a mobile design and development firm">
+	<meta name="author" content="Paul Edler" >
+	
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/style.css">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
 </head>
 <body>
-	<header>
-	<div id="logo"></div>
-		<nav>
-			<ul >
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- container -->
+
+	<div class="container">
+		<div class="five columns">
+			<img id="logo" src="./images/mLogo.png" alt="DragonFlySoft">
+		</div>
+		<nav class="eleven columns">
+			<ul>
 				<li><a href="./index.html">Home</a></li>
-				<li><a href="./appDev.html">Application Development</a>
-					<ul>
-     	     			<li><a href="./appDevMobile.html">Mobile Applications</a></li>
-     	      		<li><a href="./appDevWeb.html">Web Applications</a></li>
-      	   		<li><a href="./appDevFeatures.html">Features</a></li> 
-      	   	</ul> 
-      	   </li>
-				<li><a href="./webDev.html">Website Development</a> 
-    				<ul>
-         	   	<li><a href="webDevConstruction.html">Site Construction</a></li>
-            		<li><a href="webDevMaintain.html">Site Maintenance</a></li>
-         		   <li><a href="webDevFeatures.html">Features</a></li>
-           			<li><a href="webDevStandards.html">Design Standards</a></li> 
-           		</ul> 
-           	</li>
-				<li><a href="./bookReviews.html">Book Reviews</a></li>
-				<li><a href="./portfolio.html">Portfolio</a></li>				
+				<li><a href="./webDesign.html">Web Design</a></li>
+				<li><a href="./appDev.html">App Development</a></li>
+				<li><a href="./portfolio.html">Portfolio</a></li>
 				<li><a href="./about.html">About</a></li>
-    			<li><a href="./contact.html">Contact Us</a></li>	
-    			<li><!-- HTML for SEARCH BAR -->
-					<div id="tfheader" >
-						<form id="tfnewsearch" action="http://www.google.com/search" method="get" onSubmit="Javascript:Gsitesearch(this)">
-							<input name="q" type="hidden" />		        
-				   		<input type="text" class="tftextinput" name="qfront" size="10" maxlength="120"><input type="submit" value="search" class="tfbutton">
-						</form>
-						<div class="tfclear"></div>
-					</div>
-				</li> 
+				<li><a href="./contact.html"></a></li>			
 			</ul>
 		</nav>
-   </header>
-   <div id="container">
-		<h1>Fast, Functional, Effective Web Design</h1>
-		<div id="news">
-			<ul>
-				<li><h3>What's New</h3></li>
-				<li>2014-5-6 - "Contact Us" form added. Still more coming!</li>
-				<li>2014-5-1 - We're currently putting the finishing touches on the site. Please bear with us. Thank you.</li>
-				<li>2014-4-28 - Website launch!</li>			
-			</ul>			
-		</div>
-		<article>
-			<p>Hello and welcome to DragonFlySoft, your source for simple, yet elegant and effective web design and mobile app design. 
-			Our goal is to satisfy your businesses needs and get your message out to the world.</p></br>
-			<p>Have a look around our site, and when you're ready head over to the contact page and let us know how we can help you.</p>
-			<div align="center"><img src="./images/devices.jpg" alt="Your message to your audience"></div>
-		</article> 	
-		<div id="banner">
-			<a href="http://www.bluehost.com/track/dragonflysoft"><div id="bannerLink"></div></a>
-		</div>
-	</div>
-	<footer>
-		<div id="social">
-			<a href="g+" ><img src="./images/google_plus.png" alt="G+" ></a>
-			<a href="facebook" ><img src="./images/facebook.png" alt="Facebook" ></a>
-			<a href="twitter" ><img src="./images/twitter.png" alt="Twitter" ></a>
-		</div>
-   	<div>
-        	<p>&copy DragonFlySoft, 2014</p>
-		</div>
-	</footer>
+	</div><!-- container -->
+
+
+<!-- End Document
+================================================== -->
 </body>
 </html>
