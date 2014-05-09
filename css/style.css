@@ -13,56 +13,59 @@
 	div.container {
 		padding-top: 60px; }
 
-	/* Doc nav */
-	nav {
-		position: fixed;
-		width: 160px;
-		margin: 50px 10px; }
 	#logo {
 		margin-bottom: 20px;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		letter-spacing: -1px;
 		font-weight: bold; }
+		
+	/* navigation */
+	nav {
+		position: relative;
+		width: 160px;
+		margin: 50px 10px; }
 	nav ul {
-		float: left;
-		border-radius: 25px;
-		background-color: #268B44;
-		background: -webkit-linear-gradient(#268B44 , #044E1A); /* For Safari 5.1 to 6.0 */
-		background: -o-linear-gradient(#268B44 , #044E1A); /* For Opera 11.1 to 12.0 */
-		background: -moz-linear-gradient(#268B44 , #044E1A); /* For Firefox 3.6 to 15 */
-		background: linear-gradient(#268B44 , #044E1A); /* Standard syntax */  }
+		float: left; }
 	nav ul li {
 		display: inline-block;
-		margin: 10px 10px 10px 10px; }
+		margin: 10px 5px 10px 5px;
+		font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif; }
 	nav ul li a,
 	nav ul li a:visited,
 	nav ul li a:active  {
-		font-size: 14px;
-		color: #DFDFDF;
-		text-decoration: none;
-		font-weight: bold; }
+		font-size: 20px;
+		text-decoration: none; }
 	nav ul li a:hover,
 	nav ul li a:focus {
-		color: #FFF; }
+		color: #268B44; }
 	header h1 {
 		font-size: 52px;
 		line-height: 61px;
 		letter-spacing: -1px;
 		font-weight: normal;
 		font-family: "Georgia", "Times New Roman", Helvetica, Arial, sans-serif; }
+	#headerImage {
+		margin-bottom: 20px; }
+	
+	/* Main content */
+	#sectionHead img {
+		display: block;
+		margin: 10px auto; }
+	
 	hr.large {
 		border: none;
 		height: 8px;
-		background: #ebebeb;
+		background: #A8CDA8;
 		margin: 50px 0; }
+		
+	#about {
+		background: #46895A; }
+	#about h2, #about p {
+		color: whitesmoke;
+		margin: 10px 5px; }
+		
 	div.doc-section {
 		margin: 30px 0; }
-
-	#whatAndWhy .row {
-		padding: 30px 0 0; }
-
-	#typography blockquote {
-		margin-top: 20px; }
 
 	.hidden-code a {
 		font-size: 12px;
@@ -70,6 +73,16 @@
 	.hidden-code>div {
 		display: none; }
 
+	/* footer */
+	footer {
+		width: 100%;
+		background-color: #46895A;
+		color: whitesmoke; }
+	footer img, footer p {
+		margin: 15px 0px 5px 15px; }
+	footer p {
+		float: right;
+		margin-right: 15px; }
 
 	/* Grid */
 	#grid .column,
