@@ -239,8 +239,8 @@
 	input[type="text"]:focus,
 	input[type="password"]:focus,
 	input[type="email"]:focus,
-	input[type="name"],
-	input[type="url"],
+	input[type="name"]:focus,
+	input[type="url"]:focus,
 	textarea:focus {
 		border: 1px solid #aaa;
  		color: #444;
@@ -248,7 +248,7 @@
 		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
 		box-shadow:  0 0 3px rgba(0,0,0,.2); }
 	textarea {
-		min-height: 80px; }
+		min-height: 60px; }
 	label,
 	legend {
 		display: block;
