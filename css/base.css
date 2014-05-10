@@ -104,7 +104,7 @@
 	ul, ol { margin-bottom: 20px; }
 	ul { list-style: none outside; }
 	ol { list-style: decimal; }
-	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 20px; }
 	ul.square { list-style: square outside; }
 	ul.circle { list-style: circle outside; }
 	ul.disc { list-style: disc outside; }
@@ -216,6 +216,8 @@
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="name"],
+	input[type="url"],
 	textarea,
 	select {
 		border: 1px solid #ccc;
@@ -237,6 +239,8 @@
 	input[type="text"]:focus,
 	input[type="password"]:focus,
 	input[type="email"]:focus,
+	input[type="name"],
+	input[type="url"],
 	textarea:focus {
 		border: 1px solid #aaa;
  		color: #444;
@@ -244,12 +248,13 @@
 		-webkit-box-shadow: 0 0 3px rgba(0,0,0,.2);
 		box-shadow:  0 0 3px rgba(0,0,0,.2); }
 	textarea {
-		min-height: 60px; }
+		min-height: 80px; }
 	label,
 	legend {
 		display: block;
 		font-weight: bold;
-		font-size: 13px;  }
+		font-size: 13px;
+		margin-top: 10px;  }
 	select {
 		width: 220px; }
 	input[type="checkbox"] {
