@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>DragonFlySoft - Mobile Design and Development</title>
+	<title>DragonFlySoft - Contact Us</title>
 	<meta name="description" content="DragonFlySoft is a mobile design and development firm">
 	<meta name="author" content="Paul Edler" >
 	
@@ -38,8 +38,21 @@
 	================================================== -->
 	<script type= "text/javascript">
 		var RecaptchaOptions = {
-		theme: 'clean'
+		theme: 'blackglass'
 		};
+	</script>
+	
+	<!-- Google Analytics
+	================================================== -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-50869499-1', 'dragonflysoft.biz');
+		ga('send', 'pageview');
+
 	</script>
 
 </head>
